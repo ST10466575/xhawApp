@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Image } from 'react-native';
+<Image source={require('../assets/logo.png')} style={styles.logo} />
 
 export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState('');
